@@ -528,6 +528,11 @@ h6 {
 .image {
       background: url(./images/price-comparison-tool.jpg) no-repeat 0% 35%;
 }
+.image1{
+      background: url(./images/DSC_2030.jpg) no-repeat;
+      background-size: cover;
+      
+}
 
 /*--------------- contact form --------------- */
 
