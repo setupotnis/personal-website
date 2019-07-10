@@ -408,6 +408,12 @@ h6 {
       font-size: 18px;
       font-weight: lighter;
 }
+#ig-btn-footer{
+      cursor: pointer;
+}
+#address-btn-footer{
+      cursor: pointer;
+}
 
 .info p {
       color: grey;
