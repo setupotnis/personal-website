@@ -56,11 +56,11 @@
                         <li><a href="index.html">home<span>.</span></a></li>
                         <li><a href="work.html">work<span>.</span></a></li>
                         <li><a href="about.html">about me<span>.</span></a></li>
-                        <li><a href="contact.html">contact<span>.</span></a></li>
+                        <li><a onclick="location.href='./pdf/Resume-V1.pdf'">resume<span>.</span></a></li>
                   </ul>
             </div>
 
-            <!-- navbar ends here-->
+            <!-- navbar ends here -->
 
             <div class="whitespace"></div>
 
@@ -72,26 +72,30 @@
                               <div class="col-lg-12">
                                     <br>
 
-                                    <h1 class="wow fadeInUp" data-wow-delay="1s">Project Name</h1><br><br>
+                                    <h1 class="wow fadeInUp" data-wow-delay="1s">python price tracker</h1><br><br>
 
                                     <div class="row">
                                           <div class="col-lg-4">
-                                                <p class="wow fadeInUp" data-wow-delay="1.2s">service :</p>
-                                                <h6 class="wow fadeInUp" data-wow-delay="1.3s">Web Development</h6>
+                                                <p class="wow fadeInUp" data-wow-delay="1.2s">project :</p>
+                                                <h6 class="wow fadeInUp" data-wow-delay="1.3s">algorithm</h6>
                                           </div>
 
                                           <div class="col-lg-4">
                                                 <p class="wow fadeInUp" data-wow-delay="1.4s">started :</p>
-                                                <h6 class="wow fadeInUp" data-wow-delay="1.5s">8 May 2019</h6>
+                                                <h6 class="wow fadeInUp" data-wow-delay="1.5s">8 july 2019</h6>
                                           </div>
 
                                           <div class="col-lg-4">
                                                 <p class="wow fadeInUp" data-wow-delay="1.6s">completed :</p>
-                                                <h6 class="wow fadeInUp" data-wow-delay="1.7s">15 May 2019</h6>
+                                                <h6 class="wow fadeInUp" data-wow-delay="1.7s">9 july 2019</h6>
                                           </div>
                                     </div>
                                     <br>
-                                    <p class="wow fadeInUp" data-wow-delay="1.8s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum officia molestiae laboriosam, rem reprehenderit. Laboriosam quae alias, iure nesciunt dolorum. Eaque, magni, enim. Dolores, provident voluptas dicta commodi vel magni nesciunt sed maiores aperiam illo officiis voluptate at quod, praesentium excepturi enim.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.8s">i used python to make requests and do webscraping on amazon.ca. once the program is run, 
+                                        an e-mail would be sent if the price of the chosen item drops below a certain number. in this project specifically, the program tracked
+                                        the price of a camera and sent me an e-mail once the price was below CAD$1200. this algorithm can be applied in many other places,
+                                        such as in real estate as well as the stock-market, two things i am very interested in.
+                                    </p>
                               </div>
                         </div>
                   </div>
@@ -125,10 +129,10 @@
                   <div class="container">
                         <div class="row">
                               <div class="col-lg-6 prev">
-                                    <p><ion-icon name="arrow-back"></ion-icon>previous</p>
+                                    <p></p>
                               </div>
                               <div class="col-lg-6 next">
-                                    <p>next<ion-icon name="arrow-forward"></ion-icon></p>
+                                    <p class='next-btn' onclick='location.href="shopifyapp.html"'>next<ion-icon name="arrow-forward"></ion-icon></p>
                               </div>
                         </div>
                   </div>
@@ -164,7 +168,7 @@
                               <div class="row">
                                     <div class="col-lg-4" id="personal">
                                           <p class="wow fadeInUp">connect with me</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">ig @setupotnis</h4>
+                                          <h4 id="ig-btn-footer" class="wow fadeInUp" data-wow-delay="0.2s" onclick="location.href='https://www.instagram.com/setupotnis/'">ig @setupotnis</h4>
                                           <br><br>
                                     </div>
 
@@ -172,10 +176,10 @@
                                           <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
 
                                           <ul>
-                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">fb</li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">ig</li>
-                                                <li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">tw</li>
-                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s">yt</li>
+                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s" onclick="location.href='https://www.facebook.com/setu.potnis'">fb</li>
+                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s" onclick="location.href='https://www.instagram.com/setupotnis/'">ig</li>
+                                                <li id="gh" class="wow fadeInUp" data-wow-delay="0.8s" onclick='location.href="https://github.com/setupotnis"'>gh</li>
+                                                <li id="li" class="wow fadeInUp" data-wow-delay="1s" onclick="location.href='https://www.linkedin.com/in/setupotnis/'">li</li>
                                           </ul>
 
                                           <br><br>
@@ -183,7 +187,7 @@
 
                                     <div class="col-lg-4" id="address">
                                           <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">setupotnis@gmail.com</h4>
+                                          <a href='mailto: setupotnis@gmail.com'><h4 id='address-btn-footer'class="wow fadeInUp" data-wow-delay="0.2s">setupotnis@gmail.com</h4></a>
                                           <br><br>
                                     </div>
                               </div>
