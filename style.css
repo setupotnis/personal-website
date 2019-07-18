@@ -542,6 +542,14 @@ h6 {
 .image3{
       background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 11.41.06\ PM.jpg) no-repeat 50%;
 }
+.image41{
+      background: url(./images/Screen\ Shot\ 2019-07-18\ at\ 11.18.55\ AM.jpg) no-repeat;
+      background-size: cover;
+}
+.image42{
+      background: url(./images/Screen\ Shot\ 2019-07-18\ at\ 11.18.55\ AM.jpg) no-repeat 100%;
+      background-size: cover;
+}
 
 /*--------------- contact form --------------- */
 
