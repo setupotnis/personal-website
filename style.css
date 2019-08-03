@@ -325,7 +325,7 @@ h6 {
 }
 
 .project2::after {
-      content: "cosmetics App";
+      content: "cosmetics app";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
