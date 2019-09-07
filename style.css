@@ -321,7 +321,7 @@ h6 {
 .project2 {
       background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 9.47.41\ PM.jpg) no-repeat 50% 25%;
       background-size: cover;
-      cursor:pointer;
+      cursor: pointer;
 }
 
 .project2::after {
