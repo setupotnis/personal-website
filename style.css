@@ -300,7 +300,7 @@ h6 {
 }
 
 .project1 {
-      background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 9.52.22\ PM.jpg) no-repeat 70% 25%;
+      background: url(./images/blog-holiday-price-tracking-is-not-just-for-online-shoppers.jpg) no-repeat 80% 25%;
       background-size: cover;
       cursor:pointer;
 }
@@ -319,13 +319,13 @@ h6 {
 }
 
 .project2 {
-      background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 9.47.41\ PM.jpg) no-repeat 50% 25%;
+      background: url(./images/smart-mirror-pic.jpg) no-repeat 50% 25%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project2::after {
-      content: "cosmetics app";
+      content: "smart mirror";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -338,7 +338,7 @@ h6 {
 }
 
 .project3 {
-      background: url(images/Screen\ Shot\ 2019-07-17\ at\ 9.54.55\ PM.jpg) no-repeat 50% 50%;
+      background: url(images/Meditation-pic\ \(1\).jpg) no-repeat 50% 50%;
       background-size: cover;
       cursor:pointer;
 }
@@ -357,7 +357,7 @@ h6 {
 }
 
 .project4 {
-      background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 10.35.54\ PM.jpg) no-repeat 50% 50%;
+      background: url(./images/recipe-pic\ \(1\).jpg) no-repeat 50% 50%;
       background-size: cover;
       cursor:pointer;
 }
@@ -537,10 +537,11 @@ h6 {
       background-size: cover;
 }
 .image2{
-      background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 11.32.14\ PM.jpg) no-repeat 10%;
+      background: url(./images/smart-mirror-pic.jpg) no-repeat 25%;
+      background-size: cover;
 }
 .image3{
-      background: url(./images/Screen\ Shot\ 2019-07-17\ at\ 11.41.06\ PM.jpg) no-repeat 50%;
+      background: url(./images/smart-mirror-531.jpg) no-repeat 50%;
 }
 .image41{
       background: url(./images/Screen\ Shot\ 2019-07-18\ at\ 11.18.55\ AM.jpg) no-repeat;
