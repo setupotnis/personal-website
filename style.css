@@ -35,7 +35,7 @@ html, body {
 
 .anim-typewriter {
       animation: typewriter 4s steps(40) 1s 1 normal both,
-      blinkTextCussor 500ms steps(40) infinite normal;
+      blinkTextCussor 750ms steps(40) infinite normal;
 }
 
 @keyframes typewriter {
@@ -300,13 +300,13 @@ h6 {
 }
 
 .project1 {
-      background: url(./images/blog-holiday-price-tracking-is-not-just-for-online-shoppers.jpg) no-repeat 80% 25%;
+      background: url(./images/deadlift.jpg) no-repeat 80% 25%;
       background-size: cover;
       cursor:pointer;
 }
 
 .project1::after {
-      content: "price tracking ";
+      content: "uOttaFit ";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -338,13 +338,13 @@ h6 {
 }
 
 .project3 {
-      background: url(images/Meditation-pic\ \(1\).jpg) no-repeat 50% 50%;
+      background: url(images/recipe-pic\ \(1\).jpg) no-repeat 50% 50%;
       background-size: cover;
       cursor:pointer;
 }
 
 .project3::after {
-      content: "meditation app";
+      content: "react recipes";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -529,8 +529,12 @@ h6 {
       margin-top: 120px;
 }
 
-.image {
-      background: url(./images/price-comparison-tool.jpg) no-repeat 0% 35%;
+.image01 {
+      background: url(./images/API.jpg) no-repeat 0% 35%;
+}
+
+.image02 {
+      background: url(./images/API2.jpg) no-repeat 40% 50%;
 }
 .image1{
       background: url(./images/DSC_2030.jpg) no-repeat;
