@@ -540,6 +540,7 @@ h6 {
       background: url(./images/DSC_2030.jpg) no-repeat;
       background-size: cover;
 }
+
 .image2{
       background: url(./images/smart-mirror-pic.jpg) no-repeat 25%;
       background-size: cover;
@@ -649,4 +650,11 @@ textarea:focus {
 
 .next p {
       text-align: right;
+}
+
+/*--------------- Real Estate page --------------- */
+
+.image61{
+  background: url(./images/RE_Pic.jpeg) no-repeat;
+  background-size: contain;
 }
